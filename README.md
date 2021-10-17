@@ -6,21 +6,21 @@
 Note that while all the results are shown, only the balanced accuracy, precision, and recall scores will be discussed in the "Results" section. 	
 ##	Results: 
 1.	Naïve Random Oversampling:  For the imblearn RandomOverSampler technique, the results are shown below:
- -	![Naïve Random Oversampling Results](Naive_Random_Oversampling_results.png)
- -	
+ -	![Naïve Random Oversampling Results](images/Naive_Random_Oversampling_results.png)
+ -	As can be seen above, the Naïve Random Oversampling technique had a balanced accuracy score of 0.69. It's precision (as well as the other three smapling techniques) was 1.00 for the low risk class (which represented the overwhelming majority of the data in the dataset) and 0.01 for the high risk class (which represented less than 1% of the instances in the dataset).  The recall was 0.77 for the high risk class and 0.60 for the low risk class.  The implication here is that 40% of the low risk candidates would be inaccurately tagged as high risk candidates.
 2.	SMOTE:  For the imblearn SMOTE technique, the results are shown below:
- -	![SMOTE Oversampling Results](SMOTE_Oversampling_results.png)
+ -	![SMOTE Oversampling Results](images/SMOTE_Oversampling_results.png)
  -	
 3.	Cluster Centroid Algorithm:  For the imblearn ClusterCentroids technique, the results are shown below:
- -	![Cluster Centroid Undersampling Results](ClusterCentroid_Undersampling_results.png)
+ -	![Cluster Centroid Undersampling Results](images/ClusterCentroid_Undersampling_results.png)
  -	
 4.	SMOTEEN:   For the imblearn SMOTEENN technique, the results are shown below:
- -	![SMOTEEN Combination Over and Under Sampling Results](SMOTEEN_Combination_Over_and_Under_Sampling_results.png)
+ -	![SMOTEEN Combination Over and Under Sampling Results](images/SMOTEEN_Combination_Over_and_Under_Sampling_results.png)
  -	
 5.	Balanced Random Forest Classifier:   For the imblearn BalancedRandomForestClassifier technique, the results are shown below:
- -	![Balanced Random Forest Classifier Results](Balanced_Random_Forest_Classifier_results.png)
+ -	![Balanced Random Forest Classifier Results](images/Balanced_Random_Forest_Classifier_results.png)
  -	
 6.	Easy Ensemble Classifier:  For the imblearn EasyEnsembleClassifier technique, the results are shown below:
- -	![Easy Ensemble Classifier AdaBoost Classifier Results](Easy_Ensemble_AdaBoost_Classifier_results.png)
+ -	![Easy Ensemble AdaBoost Classifier Results](images/Easy_Ensemble_AdaBoost_Classifier_results.png)
  -	
 ##	Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any.  If you do not recommend any of the models, justify your reasoning. 
