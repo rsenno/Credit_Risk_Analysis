@@ -10,10 +10,10 @@ Note that while all the results are shown, only the balanced accuracy, precision
  -	As can be seen above, the Naïve Random Oversampling technique had a balanced accuracy score of 0.69. It's precision (as well as the other three smapling techniques) was 1.00 for the low risk class (which represented the overwhelming majority of the data in the dataset) and 0.01 for the high risk class (which represented less than 1% of the instances in the dataset).  The recall was 0.77 for the high risk class and 0.60 for the low risk class.  The implication here is that 40% of the low risk candidates would be inaccurately tagged as high risk candidates.
 2.	SMOTE:  For the imblearn SMOTE technique, the results are shown below:
  -	![SMOTE Oversampling Results](images/SMOTE_Oversampling_results.png)
- -	
+ -	The SMOTE oversampling technique had a balanced accuracy score of 0.66, even poorer than the result for Naïve Random Oversampling. The recall for the high risk class was 0.63 and for the low risk class 0.69. 
 3.	Cluster Centroid Algorithm:  For the imblearn ClusterCentroids technique, the results are shown below:
  -	![Cluster Centroid Undersampling Results](images/ClusterCentroid_Undersampling_results.png)
- -	
+ -	The Cluster Centroid undersampling technique had a balanced accuracy score of 0.54, the poorest performance of all the techniques for this dataset. The recall was 0.69 for the high risk class and 0.40 for the low risk class.  In essence, more than 50% of the low risk class members would be incorrectly identified as high risk.
 4.	SMOTEEN:   For the imblearn SMOTEENN technique, the results are shown below:
  -	![SMOTEEN Combination Over and Under Sampling Results](images/SMOTEEN_Combination_Over_and_Under_Sampling_results.png)
  -	
